@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>principal</class>
+ <widget class="QMainWindow" name="principal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>782</width>
+    <height>634</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="windowOpacity">
+   <double>150.000000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255)</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="boton_iniciar">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>510</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>INICIAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="boton_salir">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>520</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>SALIR</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="lista_gente">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>380</y>
+      <width>461</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Ivan Hernando Galindo Beltran</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Camilo Roberto Sanchez Melendez</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gabriel Ojeda Lara</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Juan Fernando Garces Bohorquez</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yaneth Patricia Cuta Colmenares</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>German Uriel Osorio Cortes</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>380</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Preventa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>420</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Black</family>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Comercial</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="lista_gente_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>420</y>
+      <width>461</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Rene Alfonso Muñoz Guayazan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Alfonso Rodriguez Jimenez</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jose Antonio Garica Garcia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Estrella MAria Fonseca Sierra</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>María Catherine Gutiérrez Lizcano</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Javier Hernan Triana Aldana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>German Marin Muñoz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Adriana del Pilar Sanchez Puentes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mariem Paola Ortigoza Perez</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tatiana Benitez Gonzales</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cesar Raul Barrios Cortes</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Luis Carlos Gutierrez Osorio</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Francisco de Paula Otero Mora</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Carlos Ignacio Mosquera Muñoz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Carolina Castillo Gomez</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Fernando Gomez Morcillo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Juliett Elena Ossa Gil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yeisy Paola Alba Alba</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Julio Ernesto Lozano Garcia</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Claudia Yaned Cardona Rojas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Andrea Maria Hamid Betancur </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Frank Leonardo Parada Maury</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Angelica Hernandez Beltran</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Maria Fernanda Bolaño de la Cruz</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ana Lucia Fernandez Jimenez</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gustavo Adolfo Sandoval Rozo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Paulo Cesar Camacho Rosso</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sandra Estela Contreras Reina</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Julian Fernando Arango Giraldo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Claudia Ospina Cañaveral</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nuevo elemento</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Maria del Pilar Giraldo </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jorge Eduardo Calcagni Castillo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sheila Patricia Hernandez de Delgado</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Claudia Patricia Gonzalez Rodriguez</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Marolyn Dahiana Murillo Acosta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sandra Patricia Sanchez Parra</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>60</y>
+      <width>471</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/logo sonda/sonda.PNG&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/logo sonda/sonda.PNG);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="boton_iniciar_2">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>510</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Administrador</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>782</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="../sonda.qrc"/>
+ </resources>
+ <connections/>
+</ui>

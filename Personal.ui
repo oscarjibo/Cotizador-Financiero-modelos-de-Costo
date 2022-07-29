@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Personal</class>
+ <widget class="QMainWindow" name="Personal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>486</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="boton_regresar1">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Añadir </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>20</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Rol</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Perfil</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>150</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Meses ejecutados </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>200</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cantidad </string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="c1">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>251</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="c3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>60</y>
+      <width>251</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Analista</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Analista +</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Analista ++</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesional Junior</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesional Pleno</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesional Pleno +</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesional Especialista </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesional Especialista +</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesional Especialista ++</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesional Senior </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesional Senior +</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Experto </string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QSpinBox" name="c2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>160</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>1</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>240</y>
+      <width>47</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Recargos </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ubicación del recurso</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="c5">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>240</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="c6">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>280</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>En Sonda Pc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>En Cliente Pc</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>SONDA Portatil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cliente Portatil</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>En cliente sin equipo </string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>En Sonda sin equipo</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zona Franca RU1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zona Franca RU2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Zona Franca RU3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Field Services EUS</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="boton_regresar">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>330</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Regresar</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="c22">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>120</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Meses No Fact</string>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="c4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>200</y>
+      <width>71</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>4</number>
+    </property>
+    <property name="maximum">
+     <double>100.000000000000000</double>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>480</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <tabstops>
+  <tabstop>c1</tabstop>
+  <tabstop>c3</tabstop>
+  <tabstop>c22</tabstop>
+  <tabstop>c2</tabstop>
+  <tabstop>c4</tabstop>
+  <tabstop>c5</tabstop>
+  <tabstop>c6</tabstop>
+  <tabstop>boton_regresar1</tabstop>
+  <tabstop>boton_regresar</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

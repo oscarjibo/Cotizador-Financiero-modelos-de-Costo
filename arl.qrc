@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="arl">
+    <file>arl.PNG</file>
+  </qresource>
+</RCC>
